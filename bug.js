@@ -1,0 +1,1 @@
+This bug occurs when using the Expo SDK's `Constants.deviceId` to identify a device.  The `deviceId` can change unexpectedly between app sessions, even on the same device.  This inconsistency makes it unreliable for tasks like associating user data with a specific device.
